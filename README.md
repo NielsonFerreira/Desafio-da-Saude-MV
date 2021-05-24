@@ -10,7 +10,7 @@ API REST para ler manipular dados do CNES (Cadastro Nacional de Estabelecimentos
 As seguintes ferramentas foram usadas na construção do projeto:
 
 - <a href="https://spring.io/projects/spring-boot">Spring Boot</a>
-- <a href="https://docs.spring.io/spring-boot/docs/current/reference/html/using-spring-boot.html#using-boot-devtools">DevTools</a>
+- <a href="https://docs.spring.io/spring-boot/docs/2.1.5.RELEASE/reference/html/using-boot-devtools.html">DevTools</a>
 - <a href="https://maven.apache.org">Maven</a>
 - <a href="https://hibernate.org">Hibernate</a>
 - <a href="https://www.h2database.com/html/main.html">H2 Database</a>
@@ -32,7 +32,7 @@ java -jar Desafio-da-Saude-MV-0.0.1-SNAPSHOT.jar
 ```
 E esperar a aplicação subir em http://localhost:8080.
 
-Para esse projeto foi utilizado o banco de dados H2. Os registros vem do arquivo "cnes_ativo.csv"
+Para esse projeto foi utilizado o banco de dados H2. Os registros vem do arquivo "cnes_ativonone.csv"
 que se encontra no diretório "...Desafio-da-Saude-MV\src\main\resources".
 
 A seguir as configurações utilizadas no arquivo "application.properties"
