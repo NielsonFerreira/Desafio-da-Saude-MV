@@ -1,0 +1,1 @@
+SELECT * FROM CSVREAD('classpath:cnes_ativo.csv');

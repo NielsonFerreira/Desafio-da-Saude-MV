@@ -1,0 +1,28 @@
+package com.nielsonferreira.desafiodasaudemv.models;
+
+import javax.annotation.Generated;
+import javax.persistence.metamodel.SingularAttribute;
+import javax.persistence.metamodel.StaticMetamodel;
+
+@Generated(value = "org.hibernate.jpamodelgen.JPAMetaModelEntityProcessor")
+@StaticMetamodel(Cnes.class)
+public abstract class Cnes_ {
+
+	public static volatile SingularAttribute<Cnes, Long> codigo;
+	public static volatile SingularAttribute<Cnes, String> telefone;
+	public static volatile SingularAttribute<Cnes, String> nomeFantasia;
+	public static volatile SingularAttribute<Cnes, Endereco> endereco;
+	public static volatile SingularAttribute<Cnes, String> ibge;
+	public static volatile SingularAttribute<Cnes, String> tipoUnidade;
+	public static volatile SingularAttribute<Cnes, String> tipoGestao;
+
+	public static final String CODIGO = "codigo";
+	public static final String TELEFONE = "telefone";
+	public static final String NOME_FANTASIA = "nomeFantasia";
+	public static final String ENDERECO = "endereco";
+	public static final String IBGE = "ibge";
+	public static final String TIPO_UNIDADE = "tipoUnidade";
+	public static final String TIPO_GESTAO = "tipoGestao";
+
+}
+

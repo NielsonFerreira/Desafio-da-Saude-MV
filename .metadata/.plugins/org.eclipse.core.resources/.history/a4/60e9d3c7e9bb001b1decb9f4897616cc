@@ -1,0 +1,37 @@
+package com.nielsonferreira.desafiodasaudemv.models;
+
+import javax.persistence.Column;
+import javax.persistence.Embedded;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+import lombok.Data;
+
+@Data
+@Entity
+@Table(name="CNES_ATIVO")
+public class Cnes {
+
+	@Id
+	@Column(name = "CO_CNES")
+	private Long codigo;
+
+	@Column(name = "CO_IBGE")
+	private String ibge;
+
+	@Column(name = "NO_FANTASIA")
+	private String nomeFantasia;
+
+	@Column(name = "DS_TIPO_UNIDADE")
+	private String tipoUnidade;
+
+	@Column(name = "TP_GESTAO")
+	private String tipoGestao;
+
+	@Embedded
+	private Endereco endereco;
+
+	@Column(name = "TELEFONE")
+	private String telefone;
+}

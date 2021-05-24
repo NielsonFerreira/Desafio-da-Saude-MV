@@ -1,0 +1,11 @@
+package com.nielsonferreira.desafiodasaudemv.repositories;
+
+import java.util.List;
+
+import com.nielsonferreira.desafiodasaudemv.models.Cnes;
+import com.nielsonferreira.desafiodasaudemv.repositories.filters.CnesFilter;
+
+public interface CnesRepositoryQuery {
+
+	public List<Cnes> filtrar(CnesFilter clienteFilter);
+}

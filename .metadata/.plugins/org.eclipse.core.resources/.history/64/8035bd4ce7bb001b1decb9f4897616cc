@@ -1,0 +1,5 @@
+package com.nielsonferreira.desafiodasaudemv.models;
+
+public class Endereco {
+
+}

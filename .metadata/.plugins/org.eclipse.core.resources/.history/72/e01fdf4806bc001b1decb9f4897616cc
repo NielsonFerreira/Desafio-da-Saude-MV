@@ -1,0 +1,5 @@
+package com.nielsonferreira.desafiodasaudemv.repositories.filters;
+
+public class CnesFilter {
+
+}

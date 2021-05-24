@@ -1,0 +1,26 @@
+package com.nielsonferreira.desafiodasaudemv.models;
+
+import javax.persistence.Column;
+import javax.persistence.Embeddable;
+
+@Embeddable
+public class Endereco {
+
+	@Column(name = "LOGRADOURO")
+	private String logradouro;
+
+	@Column(name = "NUMERO_ENDERECO")
+	private String numeroEndereco;
+
+	@Column(name = "BAIRRO")
+	private String bairro;
+
+	@Column(name = "CEP")
+	private String cep;
+
+	@Column(name = "UF")
+	private String uf;
+
+	@Column(name = "MUNICIPIO")
+	private String municipio;
+}

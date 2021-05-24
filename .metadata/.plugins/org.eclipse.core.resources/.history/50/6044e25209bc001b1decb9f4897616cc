@@ -1,0 +1,5 @@
+package com.nielsonferreira.desafiodasaudemv.repositories.cnes;
+
+public class CnesRepositoryImpl {
+
+}

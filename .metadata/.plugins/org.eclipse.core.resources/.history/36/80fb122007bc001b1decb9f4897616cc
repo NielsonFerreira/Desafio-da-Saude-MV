@@ -1,0 +1,24 @@
+package com.nielsonferreira.desafiodasaudemv.services;
+
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
+import org.springframework.stereotype.Service;
+import org.springframework.web.bind.annotation.PathVariable;
+
+import com.nielsonferreira.desafiodasaudemv.models.Cnes;
+import com.nielsonferreira.desafiodasaudemv.repositories.CnesRepository;
+
+@Service
+public class CnesService {
+
+	@Autowired
+	private CnesRepository cnesRepository;
+	
+	public ResponseEntity<Optional<Cnes>> buscarPeloCodigoCnes(@PathVariable Long codigoCnes){
+		Optional<Cnes> cnes = cnesRepository.findById(codigoCnes);
+		
+		return ResponseEntity.ok(cnes);
+	}
+}
