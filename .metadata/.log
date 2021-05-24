@@ -3702,3 +3702,12 @@ Binding(CTRL+SHIFT+C,
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-24 16:12:21.613
 !MESSAGE executing callback sts4.classpath.wSpouhDj SUCCESS [done]
+
+!ENTRY org.eclipse.ui 2 2 2021-05-24 17:08:11.252
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2021-05-24 17:08:29.763
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.31.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2021-05-24 17:08:29.965
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.31.Final
