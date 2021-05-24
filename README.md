@@ -19,6 +19,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - <a href="https://projectlombok.org/">Lombok</a>
 - <a href="https://commons.apache.org/proper/commons-lang/">Apache Commons Lang</a>
 - <a href="https://www.postman.com">Postman</a>
+- <a href="https://git-scm.com">Git</a>
 - <a href="https://www.google.com/intl/pt-BR/chrome/">Google Chrome</a>
 
 
