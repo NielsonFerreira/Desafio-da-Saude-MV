@@ -1339,3 +1339,4 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact antlr:antlr:j
 2021-05-24 16:05:44,002 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
 2021-05-24 16:05:55,829 [Worker-16: Launching Desafio-da-Saude-MV (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate - E:\Projetos\Desafio-da-Saude-MV\Desafio-da-Saude-MV
 2021-05-24 16:05:55,831 [Worker-16: Launching Desafio-da-Saude-MV (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -Ppom.xml -B package -Dstyle.color=always
+2021-05-24 16:12:05,648 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.

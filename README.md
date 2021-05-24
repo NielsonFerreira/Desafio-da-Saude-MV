@@ -24,7 +24,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 ## 🚀 Como executar o projeto
 
-Usando o Prompt de Comando, entrar no diretório "..Desafio-da-Saude-MV\target" e executar o comando:
+Usando o Prompt de Comando, entrar no diretório do projeto e executar o comando:
 
 ```bash
 java -jar Desafio-da-Saude-MV-0.0.1-SNAPSHOT.jar
