@@ -1,0 +1,7 @@
+package com.nielsonferreira.desafiodasaudemv.events.listerners;
+
+import org.springframework.context.ApplicationListener;
+
+public class RecursoCriadoListener implements ApplicationListener<E> {
+
+}

@@ -1,0 +1,38 @@
+package com.nielsonferreira.desafiodasaudemv.models;
+
+import javax.annotation.Generated;
+import javax.persistence.metamodel.SingularAttribute;
+import javax.persistence.metamodel.StaticMetamodel;
+
+@Generated(value = "org.hibernate.jpamodelgen.JPAMetaModelEntityProcessor")
+@StaticMetamodel(Cnes.class)
+public abstract class Cnes_ {
+
+	public static volatile SingularAttribute<Cnes, String> numeroEndereco;
+	public static volatile SingularAttribute<Cnes, String> uf;
+	public static volatile SingularAttribute<Cnes, Long> codigo;
+	public static volatile SingularAttribute<Cnes, String> telefone;
+	public static volatile SingularAttribute<Cnes, String> nomeFantasia;
+	public static volatile SingularAttribute<Cnes, String> ibge;
+	public static volatile SingularAttribute<Cnes, String> logradouro;
+	public static volatile SingularAttribute<Cnes, String> bairro;
+	public static volatile SingularAttribute<Cnes, String> municipio;
+	public static volatile SingularAttribute<Cnes, String> tipoUnidade;
+	public static volatile SingularAttribute<Cnes, String> tipoGestao;
+	public static volatile SingularAttribute<Cnes, String> cep;
+
+	public static final String NUMERO_ENDERECO = "numeroEndereco";
+	public static final String UF = "uf";
+	public static final String CODIGO = "codigo";
+	public static final String TELEFONE = "telefone";
+	public static final String NOME_FANTASIA = "nomeFantasia";
+	public static final String IBGE = "ibge";
+	public static final String LOGRADOURO = "logradouro";
+	public static final String BAIRRO = "bairro";
+	public static final String MUNICIPIO = "municipio";
+	public static final String TIPO_UNIDADE = "tipoUnidade";
+	public static final String TIPO_GESTAO = "tipoGestao";
+	public static final String CEP = "cep";
+
+}
+

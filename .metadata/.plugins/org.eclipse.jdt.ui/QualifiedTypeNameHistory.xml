@@ -11,12 +11,10 @@
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMapping"/>
     <fullyQualifiedTypeName name="com.nielsonferreira.desafiodasaudemv.models.Cnes"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PathVariable"/>
-    <fullyQualifiedTypeName name="org.springframework.http.ResponseEntity"/>
     <fullyQualifiedTypeName name="com.fasterxml.jackson.annotation.JsonInclude.Include"/>
     <fullyQualifiedTypeName name="lombok.Getter"/>
     <fullyQualifiedTypeName name="lombok.Setter"/>
     <fullyQualifiedTypeName name="com.nielsonferreira.desafiodasaudemv.repositories.CnesRepositoryQuery"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="com.nielsonferreira.desafiodasaudemv.repositories.cnes.CnesRepositoryQuery"/>
     <fullyQualifiedTypeName name="com.nielsonferreira.desafiodasaudemv.models.Endereco_"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.GetMapping"/>
@@ -28,4 +26,24 @@
     <fullyQualifiedTypeName name="javax.persistence.criteria.CriteriaQuery"/>
     <fullyQualifiedTypeName name="javax.persistence.criteria.Root"/>
     <fullyQualifiedTypeName name="javax.persistence.criteria.Predicate"/>
+    <fullyQualifiedTypeName name="org.springframework.context.event.ApplicationContextEvent"/>
+    <fullyQualifiedTypeName name="org.springframework.context.ApplicationEvent"/>
+    <fullyQualifiedTypeName name="java.net.URI"/>
+    <fullyQualifiedTypeName name="javax.validation.constraints.NotEmpty"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="org.springframework.http.HttpHeaders"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.ControllerAdvice"/>
+    <fullyQualifiedTypeName name="javax.persistence.GenerationType"/>
+    <fullyQualifiedTypeName name="com.nielsonferreira.desafiodasaudemv.events.RecursoCriadoEvent"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
+    <fullyQualifiedTypeName name="org.springframework.boot.test.context.SpringBootTest"/>
+    <fullyQualifiedTypeName name="com.nielsonferreira.desafiodasaudemv.DesafioDaSaudeMvApplication"/>
+    <fullyQualifiedTypeName name="org.junit.runner.RunWith"/>
+    <fullyQualifiedTypeName name="org.springframework.test.context.junit4.SpringRunner"/>
+    <fullyQualifiedTypeName name="org.springframework.test.context.web.WebAppConfiguration"/>
+    <fullyQualifiedTypeName name="com.nielsonferreira.desafiodasaudemv.services.CnesService"/>
+    <fullyQualifiedTypeName name="org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler"/>
+    <fullyQualifiedTypeName name="org.junit.Test"/>
+    <fullyQualifiedTypeName name="javax.transaction.Transactional"/>
+    <fullyQualifiedTypeName name="org.springframework.http.ResponseEntity"/>
 </qualifiedTypeNameHistroy>

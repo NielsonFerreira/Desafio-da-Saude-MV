@@ -1,0 +1,5 @@
+package com.nielsonferreira.desafiodasaudemv.exceptionhandler;
+
+public class CnesExceptionHandler {
+
+}

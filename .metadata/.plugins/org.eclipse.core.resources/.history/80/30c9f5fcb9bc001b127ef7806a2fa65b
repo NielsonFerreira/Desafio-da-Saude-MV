@@ -1,0 +1,31 @@
+package com.nielsonferreira.desafiodasaudemv;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+import java.util.Optional;
+
+import org.junit.runner.RunWith;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.http.ResponseEntity;
+import org.springframework.test.context.junit4.SpringRunner;
+import org.springframework.test.context.web.WebAppConfiguration;
+
+import com.nielsonferreira.desafiodasaudemv.models.Cnes;
+import com.nielsonferreira.desafiodasaudemv.services.CnesService;
+
+@SpringBootTest(classes = DesafioDaSaudeMvApplication.class)
+@RunWith(SpringRunner.class)
+@WebAppConfiguration
+public class CnesServiceTest {
+
+	@Autowired
+	private CnesService cnesService;
+	
+	public void buscarPeloCodigoCnesTest() {
+		ResponseEntity<Optional<Cnes>> cnes = cnesService.buscarPeloCodigoCnes(6590640L);
+		
+		assertEquals("261160", cnes.getBody().getIbge());
+		assertEquals("CLINICA JC BASTO", cnes.getBody().getNomeFantasia());
+	}
+}
